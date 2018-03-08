@@ -1,0 +1,98 @@
+@charset "utf-8";
+:hover img{
+        cursor: pointer;
+    }
+.melon_head {
+    background-color: #222;
+    margin-bottom: 0;
+    border: none;
+    border-radius: 0;
+    .navbar-nav>li>a {
+        font-size: 14px;
+        color: #9D9D9D;
+        &:hover {
+            color: white;
+        }
+    }  
+    .navbar-brand {
+        padding: 7px 15px;
+    }
+}
+.carousel{
+    margin-top: 50px;
+}
+.lieren_box {
+    .lieren_content {
+        .xingzhuang {
+            width: 40px;
+            height: 100px;
+            background-color: #e14738;
+            p {
+                text-align: center;
+                color: white;
+            }
+            .triangle-up {
+                width: 0;
+                height: 0;
+                border-left: 20px solid transparent;
+                border-right: 20px solid transparent;
+                border-bottom: 40px solid #f7f7f7;
+            }
+        }
+        .games_jieshao{
+            color: #898989;
+            font-size: 12px;
+            line-height: 35px;
+        }
+        .yuanjiao{
+            border-radius: 20px;
+            overflow: hidden;
+            padding-bottom: 50px;
+        }
+    }
+}
+.anli_box{
+    margin-bottom: 30px;
+    .anli_content{
+        h2{
+            text-indent:0.5em;
+            padding:38px 0;
+        }
+        .yincang{
+            position: relative;
+             .dingwei{
+                display: none;
+                position: absolute;
+                z-index: 999;
+            }
+        }
+       .yincang:hover{
+           overflow: hidden;
+           cursor: pointer;
+            display: block;
+            background-color:white;
+            opacity: .6;
+            .dingwei{
+            display:block;
+            z-index: 999;
+            animation-duration: .1s;
+            animation-timing-function: ease-in-out;
+            }
+        }
+        p{  
+            margin-bottom: 30px;
+            text-align: center;
+        }
+    }
+}
+
+@media only screen and (min-width:767px) and (max-width:991px) {
+    .lieren_box{
+        .lieren_content{
+            text-align: center;
+            h2,p{
+                 text-align: center;
+            }
+        }
+    }
+}

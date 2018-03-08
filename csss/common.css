@@ -1,0 +1,57 @@
+.melon_head {
+  background-color: #222;
+  margin-bottom: 0;
+  border: none;
+  border-radius: 0; }
+  .melon_head .navbar-nav > li > a {
+    font-size: 14px;
+    color: #9D9D9D; }
+    .melon_head .navbar-nav > li > a:hover {
+      color: white; }
+  .melon_head .navbar-brand {
+    padding: 7px 15px; }
+
+.footer_box {
+  margin: 0 auto;
+  background-color: #3b3b3b; }
+  .footer_box .footer_content {
+    text-align: left; }
+    .footer_box .footer_content ul li {
+      list-style: none;
+      float: left;
+      color: #a1a3ab;
+      font-size: 14px;
+      padding-right: 10px;
+      padding-top: 35px; }
+      .footer_box .footer_content ul li a {
+        color: #a1a3ab; }
+      .footer_box .footer_content ul li a:hover {
+        color: white;
+        text-decoration: none;
+        cursor: pointer; }
+    .footer_box .footer_content p {
+      color: #a1a3ab;
+      font-size: 11px;
+      padding-bottom: 40px; }
+    .footer_box .footer_content .tu {
+      padding-top: 40px; }
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: #080808;
+  color: white; }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .melon_head .nav > li > a {
+    padding: 15px 4px; } }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .melon_head .container {
+    width: 940px; } }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .footer_box {
+    text-align: center; }
+
+  .footer_content .tu {
+    text-align: center; } }
+
+/*# sourceMappingURL=common.css.map */

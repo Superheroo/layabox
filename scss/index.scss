@@ -1,0 +1,243 @@
+@charset "utf-8";
+.carousel{
+//  margin-top: 50px;
+}
+:hover img{
+        cursor: pointer;
+    }
+.engine_box {
+    padding: 105px 15px 99px;
+    background-image: url(../img/index/aa5.png);
+    background-repeat: no-repeat;
+    background-position: right 15.3% top 137px;
+    background-color: #fbfaf7;
+    .engine_content {
+        h2 {
+            color: #0078d7;
+            font-size: 48x;
+            font-weight: bold;
+        }
+        h3 {
+            font-size: 30px;
+            font-weight: normal;
+            color: #666666;
+            margin: 34px 0 79px;
+        }
+        .engine_detail {
+            margin-bottom: 47px;
+            p {
+                font-size: 20px;
+                color: #333;
+            }
+            span {
+                font-size: 14px;
+                color: #666;
+            }
+        }
+    }
+}
+
+.advantage_box {
+    background-image: url(../img/index/win.png);
+    background-repeat: no-repeat;
+    background-position: left 6.6% top 100px;
+    .advantage_content {
+        h2 {
+            text-align: center;
+            color: #8fc31f;
+            font-size: 48x;
+            font-weight: bold;
+        }
+        .advantage_detail {
+            margin-bottom: 16px;
+            p {
+                font-size: 14px;
+                color: #8c8c8c;
+                padding-top: 16px;
+            }
+        }
+    }
+}
+
+.family_box {
+    background-color: #0079d7;
+    .family_content {
+        h2 {
+            text-align: center;
+            font-size: 48px;
+            color: white;
+            padding-bottom: 73px;
+            padding-top: 100px;
+        }
+        ;
+    }
+    .family_detail {
+        height: 94px;
+        margin-bottom: 80px;
+        padding-right: 80px;
+        p {
+            font-size: 30px;
+            color: white;
+        }
+        span {
+            font-size: 14px;
+            color: #bfddf4;
+        }
+        div img {
+            margin-top: 15px;
+        }
+    }
+}
+
+.games_box{  
+    position: relative;
+    padding: 87px 15px 50px;
+    a{
+        display: block;
+        text-decoration: none;
+        color:black;
+    }
+    .games_content {
+        .games {
+            font-size: 28px;
+            padding-bottom: 46px
+        }
+        .images {
+            p {
+                text-align: center;
+            }
+        }
+    }
+}
+
+.partner_box {
+    background-color: #f4f4f4;
+    .zi {
+        margin: 40px 0 34px;
+        .da {
+            font-size: 30px;
+        }
+        .xiao {
+            font-size: 11px;
+            color: #969696;
+        }
+    }
+    .partner_content{
+        margin-bottom: 64px;
+       .xia{
+           margin-bottom: 20px;
+           
+       }
+       img{
+               box-shadow: 2px 2px 2px gray; 
+           }
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .engine_box .engine_content .engine_detail p {
+        font-size: 18px;
+    }
+    
+    .advantage_box .advantage_content .advantage_detail p {
+        padding-left: 14px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .engine_box {
+        background-image: none;
+        h2,
+        h3 {
+            text-align: center;
+        }
+    }
+    .advantage_box {
+        background-image: none;
+        .advantage_content .advantage_detail p {
+            padding-top: 7px;
+        }
+        h2 {
+            text-align: center;
+        }
+    }
+    .family_box {
+        .family_detail div img {
+            margin-top: 9px;
+        }
+    }
+    .games_box{
+        .games_content{
+            .xiaoping{
+                margin-bottom: 20px;
+            }
+            .images{
+                text-align:center;
+                p{
+                    text-align:center;
+                }
+            }
+        }
+    }
+    .partner_box .partner_content .xia{
+        margin-left:15%;
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:767px) {
+    .engine_box {
+        margin-bottom: 10px;
+        background-image: none;
+        h2,
+        h3 {
+            text-align: center;
+        }
+        .engine_content .engine_detail p {
+            text-align: center;
+        }
+    }
+    .advantage_box {
+        background-image: none;
+        .advantage_content .advantage_detail 
+        p {
+            padding-top: 10px;
+        }
+        h2 {
+            text-align: center;
+        }
+    }
+    .family_box {
+        .family_detail div img {
+            margin-top: 9px;
+        }
+    }
+    .games_box .games_content {
+        .xiaoping {
+            margin-bottom: 20px;
+        }
+        .images {
+            text-align: center;
+            p {
+                text-align: center;
+            }
+        }
+    }
+    
+}
+@media only screen and (min-width:0px) and (max-width:490px) {
+    .games_box {
+        .games_content 
+        .xiaoping{
+            img{
+            width: 300px;
+            height: 200px;
+            }
+        }
+        .images {
+             
+            p {
+                text-align: center;
+            }
+        }
+    }
+}

@@ -1,0 +1,67 @@
+.melon_head {
+  background-color: #222;
+  margin-bottom: 0;
+  border: none;
+  border-radius: 0; }
+  .melon_head .navbar-nav > li > a {
+    font-size: 14px;
+    color: #9D9D9D; }
+    .melon_head .navbar-nav > li > a:hover {
+      color: white; }
+  .melon_head .navbar-brand {
+    padding: 7px 15px; }
+
+.jianjie_box h2 {
+  padding: 92px 0 34px; }
+.jianjie_box .biaoti {
+  font-size: 21px; }
+.jianjie_box .content {
+  margin-bottom: 43px;
+  padding-left: 15px;
+  text-indent: 2em;
+  font-size: 14px; }
+
+.invite_box {
+  background-color: #8cc11f; }
+  .invite_box .invite_content h2 {
+    color: white;
+    padding: 114px 0 58px; }
+  .invite_box .invite_content p {
+    font-size: 14px;
+    color: white; }
+  .invite_box .invite_content button {
+    height: 48px;
+    border-radius: 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: white;
+    color: #8cc11f; }
+  .invite_box .invite_content .xia {
+    margin-bottom: 50px; }
+
+.works_box .works_content {
+  padding-bottom: 30px; }
+  .works_box .works_content h3 {
+    padding: 90px 0 40px;
+    color: #8cc11f; }
+  .works_box .works_content p {
+    font-size: 18px; }
+  .works_box .works_content ul li {
+    list-style-type: demical; }
+  .works_box .works_content li {
+    line-height: 30px; }
+
+.contact_box {
+  background-color: #f4f4f4; }
+  .contact_box h2 {
+    padding-bottom: 40px; }
+  .contact_box .contact_content {
+    margin-bottom: 40px; }
+    .contact_box .contact_content .white-box {
+      margin-bottom: 20px;
+      margin-right: 20px;
+      border-radius: 5px;
+      background-color: white;
+      border: 1px solid #e3e3e3; }
+
+/*# sourceMappingURL=aboutus.css.map */

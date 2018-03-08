@@ -1,0 +1,187 @@
+@charset "utf-8";
+.melon_head {
+    background-color: #222;
+    margin-bottom: 0;
+    border: none;  
+    border-radius: 0;
+    .navbar-nav>li>a {
+        font-size: 14px;
+        color: #9D9D9D;
+        &:hover{
+            color: white;
+        }
+    }
+    .navbar-brand{
+        padding: 7px 15px;
+    }
+}
+.flash_box{
+     margin-top: 50px;
+    background-image: url(../img/family/layaflash.png);
+    background-repeat:no-repeat;
+     background-position: right 16% top 60px;
+    background-color:#8bc01f;
+    .flash_content{
+        .number{
+             margin-top: 68px;
+            width: 55px;
+            height: 55px;
+            border-radius: 2px;
+            background-color: white;
+            color: #8bc01f;
+            font-size: 40px;
+            padding-bottom: 10px;
+            border: none;
+        }
+        span{
+           
+            font-size: 48px;
+            color: white;
+        }
+        p{
+            padding-bottom: 20px;
+            color:white;
+            font-size: 24px;
+        }
+        .xiao{
+            color: white;
+            font-size: 14px;
+        }
+        button{
+            border: none;
+            color:#8bc01f;
+            background-color: white;
+            width: 100px;
+            height: 34px;
+            border-radius: 5px;
+            margin-bottom: 93px;
+        }
+    }
+}
+
+.player_box{
+    background-color:#3393df;
+    .player_content{
+        .number{
+             margin-top: 68px;
+            width: 55px;
+            height: 55px;
+            border-radius: 2px;
+            background-color: white;
+            color: #3393df;
+            font-size: 40px;
+            border: none;
+        }
+        span{
+           
+            font-size: 48px;
+            color: white;
+        }
+        .xiao{
+            color: white;
+            font-size: 14px;
+        }
+        button{
+            border: none;
+            color:#8bc01f;
+            background-color: white;
+            width: 100px;
+            height: 34px;
+            border-radius: 5px;
+            margin-bottom: 93px;
+        }
+        h2{
+            color: white;
+        }
+        p{
+            color: white;
+            font-size: 14px;
+            padding-bottom: 10px;
+            line-height: 30px;
+        }
+        .tu_xia{
+            padding-top: 190px;
+            margin-bottom: 50px;
+        }
+    }
+}
+.air-open_box{
+    .number{
+             margin-top: 68px;
+            width: 55px;
+            height: 55px;
+            border-radius: 2px;
+            background-color:#3393df;
+            color:white;
+            font-size: 40px;
+            border: none;
+        }
+        span{
+           
+            font-size: 48px;
+            color:#3393df;
+        }
+        p{
+            color: #5d5d5d;
+            font-size: 18px;
+            padding-top: 25px;
+        }
+        .lan{
+            color: #66aee7;
+            font-size: 18px;
+        }
+        .jieshao{
+            color: #5d5d5d;
+            font-size: 14px;
+            text-indent: 2em;
+        }
+        .juzhong{
+            padding:40px 150px 86px;
+        }
+}
+.Store-Publish_box{
+    background-color: #f7f7f7;
+    .number{
+             margin-top: 68px;
+            width: 55px;
+            height: 55px;
+            border-radius: 2px;
+            background-color:#3393df;
+            color:white;
+            font-size: 40px;
+            border: none;
+        }
+        span{
+           
+            font-size: 48px;
+            color:#3393df;
+        }
+        p{
+            color: #5d5d5d;
+            font-size: 18px;
+            padding-top: 25px;
+        }
+        .lan{
+            color: #66aee7;
+            font-size: 18px;
+        }
+        .jieshao{
+            color: #5d5d5d;
+            font-size: 14px;
+            text-indent: 2em;
+        }
+        .juzhong{
+            padding:40px 150px 86px;
+        }
+}
+@media only screen and (min-width:0px) and (max-width:767px) {
+    .flash_box{
+        background-image:none;
+    }
+    .air-open_box .juzhong{
+        padding: 40px 85px 86px;
+    }
+    .Store-Publish_box .juzhong{
+         padding: 40px 85px 86px;
+    }
+}

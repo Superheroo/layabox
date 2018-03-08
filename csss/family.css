@@ -1,0 +1,145 @@
+.melon_head {
+  background-color: #222;
+  margin-bottom: 0;
+  border: none;
+  border-radius: 0; }
+  .melon_head .navbar-nav > li > a {
+    font-size: 14px;
+    color: #9D9D9D; }
+    .melon_head .navbar-nav > li > a:hover {
+      color: white; }
+  .melon_head .navbar-brand {
+    padding: 7px 15px; }
+
+.flash_box {
+  background-image: url(../img/family/layaflash.png);
+  background-repeat: no-repeat;
+  background-position: right 16% top 60px;
+  background-color: #8bc01f; }
+  .flash_box .flash_content .number {
+    margin-top: 68px;
+    width: 55px;
+    height: 55px;
+    border-radius: 2px;
+    background-color: white;
+    color: #8bc01f;
+    font-size: 40px;
+    padding-bottom: 10px;
+    border: none; }
+  .flash_box .flash_content span {
+    font-size: 48px;
+    color: white; }
+  .flash_box .flash_content p {
+    padding-bottom: 20px;
+    color: white;
+    font-size: 24px; }
+  .flash_box .flash_content .xiao {
+    color: white;
+    font-size: 14px; }
+  .flash_box .flash_content button {
+    border: none;
+    color: #8bc01f;
+    background-color: white;
+    width: 100px;
+    height: 34px;
+    border-radius: 5px;
+    margin-bottom: 93px; }
+
+.player_box {
+  background-color: #3393df; }
+  .player_box .player_content .number {
+    margin-top: 68px;
+    width: 55px;
+    height: 55px;
+    border-radius: 2px;
+    background-color: white;
+    color: #3393df;
+    font-size: 40px;
+    border: none; }
+  .player_box .player_content span {
+    font-size: 48px;
+    color: white; }
+  .player_box .player_content .xiao {
+    color: white;
+    font-size: 14px; }
+  .player_box .player_content button {
+    border: none;
+    color: #8bc01f;
+    background-color: white;
+    width: 100px;
+    height: 34px;
+    border-radius: 5px;
+    margin-bottom: 93px; }
+  .player_box .player_content h2 {
+    color: white; }
+  .player_box .player_content p {
+    color: white;
+    font-size: 14px;
+    padding-bottom: 10px;
+    line-height: 30px; }
+  .player_box .player_content .tu_xia {
+    padding-top: 190px;
+    margin-bottom: 50px; }
+
+.air-open_box .number {
+  margin-top: 68px;
+  width: 55px;
+  height: 55px;
+  border-radius: 2px;
+  background-color: #3393df;
+  color: white;
+  font-size: 40px;
+  border: none; }
+.air-open_box span {
+  font-size: 48px;
+  color: #3393df; }
+.air-open_box p {
+  color: #5d5d5d;
+  font-size: 18px;
+  padding-top: 25px; }
+.air-open_box .lan {
+  color: #66aee7;
+  font-size: 18px; }
+.air-open_box .jieshao {
+  color: #5d5d5d;
+  font-size: 14px;
+  text-indent: 2em; }
+.air-open_box .juzhong {
+  padding: 40px 150px 86px; }
+
+.Store-Publish_box {
+  background-color: #f7f7f7; }
+  .Store-Publish_box .number {
+    margin-top: 68px;
+    width: 55px;
+    height: 55px;
+    border-radius: 2px;
+    background-color: #3393df;
+    color: white;
+    font-size: 40px;
+    border: none; }
+  .Store-Publish_box span {
+    font-size: 48px;
+    color: #3393df; }
+  .Store-Publish_box p {
+    color: #5d5d5d;
+    font-size: 18px;
+    padding-top: 25px; }
+  .Store-Publish_box .lan {
+    color: #66aee7;
+    font-size: 18px; }
+  .Store-Publish_box .jieshao {
+    color: #5d5d5d;
+    font-size: 14px;
+    text-indent: 2em; }
+  .Store-Publish_box .juzhong {
+    padding: 40px 150px 86px; }
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .flash_box {
+    background-image: none; }
+
+  .air-open_box .juzhong {
+    padding: 40px 112px 86px; } }
+
+/*# sourceMappingURL=family.css.map */
